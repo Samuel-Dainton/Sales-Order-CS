@@ -9,3 +9,5 @@ A collection of minor functions that are performed on a Sales Order record durin
 * If there is data in the Carriage Matrix field, it should be highlighted in yellow.
 * In the communications subtab, the email should be set to the appropriate customer email from the customer record.
 * If the Date Required is in the future, a popup will appear to notify you of this when saving the record.
+* If the Date Required field is filled in, adding new lines will set the Expected Ship Date to the same value.
+* If the Quantity is greater than the Available Quantity, warning emojis are filled into the Unavailable column to warn the user. (Highlighting cannot be done on lines, only body fields)
